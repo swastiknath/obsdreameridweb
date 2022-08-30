@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+
           <Image
               margin="0 0 15px"
               src="/obslonglogo.svg" alt="OBS LOGO" width={75} height={45} color="#ffffff"/>
@@ -26,7 +27,7 @@ export default function Home() {
         <p className={styles.description}> Million Dreams. One Dreamer ID. </p>
 
        <div className={styles.bodyText}>
-           <p>Unified Single-Sign-On for all the internal OBS Dreamers. Secured by OBS SecuRA Trusted Platform.</p> </div>
+           <p>Unified Single-Sign-On for all the internal OBS Dreamers. <br/>Secured by OBS SecuRA Trusted Platform.</p> </div>
 
         <form action="/" className={styles.form} method="post">
 
@@ -42,12 +43,10 @@ export default function Home() {
 
             <button type="submit">Login to Dreamer ID</button>
         </form>
+          <Image src="/rvrhm.svg" alt="RVRHM Logo" width={150} height={80}/>
 
-          <div className={styles.grid}>
 
-              <Image src="/rvrhm.svg" alt="RVRHM Logo" width={150} height={80}/>
 
-          </div>
       </main>
 
       <footer className={styles.footer}>
