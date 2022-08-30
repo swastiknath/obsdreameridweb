@@ -108,6 +108,7 @@
   border: 0.7px solid #3C3F41;
   border-radius: 14px;
   transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
 }
 
 .form:hover,
@@ -131,6 +132,7 @@
 .form input {
   border-radius: 10px;
   height: 40px;
+  max-width:250px;
   padding: 10px 10px 10px;
   line-height: 20px;
   font-size: 20px;
