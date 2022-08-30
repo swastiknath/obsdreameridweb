@@ -23,13 +23,16 @@
 
 .footer a {
   display: flex;
+  font-size:12px;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  text-align: center;
+  color: #5F6467;
 }
 
 .title a {
-  color: #0070f3;
+  color: #e42a2a;
   text-decoration: none;
 }
 
@@ -42,7 +45,8 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 25px;
+  text-align: center;
 }
 
 .title,
@@ -51,10 +55,18 @@
 }
 
 .description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+  margin: 30px 0;
+  font-size: 1rem;
 }
+
+.bodyText p {
+  margin: 0 25px ;
+  font-size:10px;
+  text-align: justify;
+
+}
+
+
 
 .code {
   background: #fafafa;
@@ -80,16 +92,85 @@
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border-radius: 14px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+}
+
+.form {
+  align-self: center;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  flex-wrap: wrap;
+  text-decoration: none;
+  border: 0.7px solid #3C3F41;
+  border-radius: 14px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.form:hover,
+.form:focus,
+.form:active {
+  border-color: #e42a2a;
+}
+
+.form h2 {
+  margin: 15px 15px 15px;
+  font-size: 1.5rem;
+}
+
+.form label {
+  margin: 0;
+  padding: 15px 0 15px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.form input {
+  border-radius: 10px;
+  height: 40px;
+  padding: 10px 10px 10px;
+  line-height: 20px;
+  font-size: 20px;
+  margin: 10px 10px 10px;
+  display: block;
+  border: none;
+  font-family: Comfortaa, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+.form input::placeholder{
+  font-size: 12px;
+  font-family: Comfortaa, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+.form button {
+
+  margin-top: 15px;
+  background-color: #e42a2a;
+  border-radius: 15px;
+  padding: 15px 15px 15px;
+  font-family: Comfortaa, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+.form button:hover {
+  color: #000000;
+  background-color: #ffffff
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #e42a2a;
+  border-color: #e42a2a;
 }
 
 .card h2 {
@@ -124,6 +205,6 @@
     background: #111;
   }
   .logo img {
-    filter: invert(1);
+    filter: invert(0);
   }
 }
